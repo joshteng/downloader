@@ -1,8 +1,26 @@
+if (process.env.NODE_ENV != 'production') {
+  require('dotenv').config()
+}
+
 const dir = require('path').dirname(require.main.filename)
 const { fork } = require('child_process');
 const express = require('express')
+const basicAuth = require('express-basic-auth')
 const app = express();
 const port = process.env.PORT || 3001;
+
+
+if (process.env.USERNAME && process.env.PASSWORD) {
+  const cred = {}
+  cred[process.env.USERNAME] = process.env.PASSWORD
+
+  app.use(basicAuth({
+    users: cred,
+    challenge: true
+  }))
+
+  // console.log(`using credentials ${JSON.stringify(cred)}`)
+}
 
 app.use(express.urlencoded({ extended: false }));
 

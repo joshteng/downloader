@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV != 'production') {
+  require('dotenv').config()
+}
+
 const fs = require('fs');
 const WebTorrent = require('webtorrent');
 const cliProgress = require('cli-progress');
