@@ -1,13 +1,11 @@
-# Download Torrent
+# Download Torrent to Your Server
 
-Submit a magnet link and voila!
+Submit a magnet link from anywhere and begin downloading torrent on your server!
 
-**Not for piracy!**
+**Strictly not for piracy!**
 Please use it for legitimate distributed file sharing.
 
-
-![Big Browser Preview](https://github.com/joshteng/downloader/blob/master/docs/browser.png?raw=true)
-![Mobile Browser Preview](https://github.com/joshteng/downloader/blob/master/docs/mobile.jpg?raw=true)
+<img src="https://github.com/joshteng/downloader/blob/master/docs/mobile.jpg?raw=true" height="500">
 
 To start:
 ```
