@@ -1,4 +1,4 @@
-# Download Torrent to Your Server
+# Torrent to Server from Anywhere
 
 Submit a magnet link from anywhere and begin downloading torrent on your server!
 
