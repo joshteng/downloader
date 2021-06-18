@@ -21,7 +21,7 @@ http://localhost:3001
 Customization via Environment Variables
 ```
 PORT=8080 # optional. if not set, defaults to 3001
-DOWNLOAD_PATH=<ABSOLUTE_PATH> # optional. if not set, creates a `downloads` directory at root of app directory for downloads
+DOWNLOAD_PATH=<ABSOLUTE_PATH> # optional. if not set, creates a `downloads` directory at root of app directory
 USERNAME="<YOUR_USERNAME_FOR_BASIC_AUTH>" # see note below
 PASSWORD="<YOUR_PASSWORD_FOR_BASIC_AUTH>" # see note below
 ```
