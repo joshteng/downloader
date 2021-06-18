@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
   const torrentId = req.body['magnet_link']
-  // console.log("Downloading Torrent Id:- \t" + torrentId);
+  console.log("Downloading Torrent Id:- \t" + torrentId);
   const forked = fork(`${dir}/download.js`);
   forked.send({ torrentId: torrentId });
   res.sendFile(__dirname + '/public/success.html');
