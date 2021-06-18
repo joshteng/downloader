@@ -1,3 +1,4 @@
+const dir = require('path').dirname(require.main.filename)
 const { fork } = require('child_process');
 const express = require('express')
 const app = express();
@@ -12,7 +13,7 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
   const torrentId = req.body['magnet_link']
   // console.log("Downloading Torrent Id:- \t" + torrentId);
-  const forked = fork('download.js');
+  const forked = fork(`${dir}/download.js`);
   forked.send({ torrentId: torrentId });
   res.send("Downloading!")
 })
