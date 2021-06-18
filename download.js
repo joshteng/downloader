@@ -4,7 +4,7 @@ const cliProgress = require('cli-progress');
 
 function download(torrentId) {
   function _download(torrent) {
-    const downloadPath = process.env.DOWNLOAD_PATH || './downloads' + '/' + new Date().getTime()
+    const downloadPath = (process.env.DOWNLOAD_PATH || './downloads') + '/' + new Date().getTime()
     fs.mkdirSync(downloadPath)
     const bar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
     const files = torrent.files;
