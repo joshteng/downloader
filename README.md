@@ -2,8 +2,8 @@
 
 Submit a magnet link and voila!
 
-**Not for use with piracy!**
-Use it for legitimate distributed file sharing.
+**Not for piracy!**
+Please use it for legitimate distributed file sharing.
 
 To start:
 ```
