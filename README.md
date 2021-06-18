@@ -2,6 +2,9 @@
 
 Submit a magnet link and voila!
 
+**Not for use with piracy!**
+Use it for legitimate distributed file sharing.
+
 To start:
 ```
 npm install
