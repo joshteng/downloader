@@ -33,7 +33,7 @@ app.post('/', (req, res) => {
   // console.log("Downloading Torrent Id:- \t" + torrentId);
   const forked = fork(`${dir}/download.js`);
   forked.send({ torrentId: torrentId });
-  res.send("Downloading!")
+  res.sendFile(__dirname + '/public/success.html');
 })
 
 app.listen(port, () => {

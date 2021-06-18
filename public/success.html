@@ -24,41 +24,20 @@
       background-color: #efefef;
     }
 
-    .form-download {
+    .downloading {
       width: 100%;
       max-width: 600px;
       padding: 15px;
       margin: auto;
-    }
-
-    .form-download label {
-      font-style: italic;
-    }
-
-    .form-download .form-floating:focus-within {
-      z-index: 2;
-    }
-
-    .form-download input[type="text"] {
-      margin-bottom: -1px;
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0;
     }
   </style>
 
 </head>
 
 <body class="text-center">
-  <main class="form-download">
-    <form action="/" method="POST">
-      <h1 class="h3 mb-3 fw-normal">Download Torrent</h1>
-      <div class="form-floating mb-3">
-        <input type="text" name="magnet_link" class="form-control" id="magnetLink" placeholder="magnet:?">
-        <label for="magnetLink">paste magnet link</label>
-      </div>
-      <button type="submit" class="w-100 btn btn-lg btn-dark">Begin the Magic</button>
-      <p class="mt-3 mb-3">❤️</p>
-    </form>
+  <main class="downloading">
+    <p>Download initiated...</p>
+    <a href="/" class="btn btn-lg btn-info">Go Back</a>
   </main>
 </body>
 
