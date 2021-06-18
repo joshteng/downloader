@@ -5,6 +5,10 @@ Submit a magnet link and voila!
 **Not for piracy!**
 Please use it for legitimate distributed file sharing.
 
+
+![Big Browser Preview](https://github.com/joshteng/downloader/blob/master/docs/browser.png?raw=true)
+![Mobile Browser Preview](https://github.com/joshteng/downloader/blob/master/docs/mobile.jpg?raw=true)
+
 To start:
 ```
 npm install
