@@ -27,3 +27,9 @@ PASSWORD="<YOUR_PASSWORD_FOR_BASIC_AUTH>" # see note below
 ```
 
 Set username and password env variables to use basic auth else no authentication will be used and if exposed to public network, anyone can start downloads to your computer / server.
+
+
+## To-Do
+
+- [ ] Improve error handling
+- [ ] Socket stream real-time download status
